@@ -6,7 +6,7 @@ h1{
 h3{
     float: right;
     background-color: orange;
-    border: 1px;
+    border: 1px solid black;
 }
 article #1{
     max-width: 232px;
