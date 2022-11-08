@@ -13,6 +13,7 @@ article{
     padding-left: 16px;
     padding-right: 16px;
     top: 60px;
+    background-color: aqua;
 }
 }
 /* Tablet */
@@ -27,6 +28,7 @@ article{
         padding-left: 16px;
         padding-right: 16px;
         top: 60px;
+        background-color: aqua;
     }
 }
 /* Mobile */
@@ -41,5 +43,6 @@ article{
         padding-left: 16px;
         padding-right: 16px;
         top: 60px;
+        background-color: aqua;
     }
 }
