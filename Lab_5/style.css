@@ -1,103 +1,163 @@
 h1{
     text-align: center;
 }
-/* Desktop */
-@media (min-width: 992px){
-h3{
-    float: right;
-    background-color: orange;
+article{
+    width: 250px;
+    height: 160px;
+    background-color:lightgray;
     border: 1px solid black;
+    margin: 45px;
+    float: left;
+
 }
-article #1{
-    max-width: 200px;
-    margin-left: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: aqua;
+p{
+    font-family: Arial, sans-serif;
+
 }
-article #2{
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: aqua;
+h3 {
+    float: right;
+    padding: 4px;
+    margin-block-start: auto;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    font-size: medium;
 }
-article #3{
-    max-width: 200px;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: aqua;
+#c1
+{
+    background-color: yellow;
 }
+#c2{
+    background-color: maroon;
 }
-/* Tablet */
-@media (min-width: 768px) and (max-width: 992px){
-    h3{
-        float: right;
-        background-color: orange;
-        border: 1px;
-    }
-    h3{
-        float: right;
-        background-color: orange;
-        border: 1px;
-    }
-    article #1{
-        max-width: 200px;
-        margin-left: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
-    }
-    article #2{
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
-    }
-    article #3{
-        max-width: 200px;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
-    }
+#c3{
+    background-color: lightcoral;
 }
-/* Mobile */
-@media (max-width: 768px){
-    h3{
-        float: right;
-        background-color: orange;
-        border: 1px;
+/* Desktop */
+@media (min-width: 992px) {
+    .col-lg-1 {
+        width: 8.33%;
     }
-    h3{
-        float: right;
-        background-color: orange;
-        border: 1px;
+
+    .col-lg-2 {
+        width: 16.66%;
     }
-    article #1{
-        max-width: 200px;
-        margin-left: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
+
+    .col-lg-3 {
+        width: 25%;
     }
-    article #2{
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
+
+    .col-lg-4 {
+        width: 33.33%;
     }
-    article #3{
-        max-width: 200px;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: aqua;
+
+    .col-lg-5 {
+        width: 41.66%;
     }
-}
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    /* Tablet */
+    @media (min-width: 768px) and (max-width: 992px) {
+        .col-md-1 {
+            width: 8.33%;
+        }
+        .col-md-2 {
+            width: 16.66%;
+        }
+        .col-md-3 {
+            width: 25%;
+        }
+        .col-md-4 {
+            width: 33.33%;
+        }
+        .col-md-5 {
+            width: 41.66%;
+        }
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-7 {
+            width: 58.33%;
+        }
+        .col-md-8 {
+            width: 66.66%;
+        }
+        .col-md-9 {
+            width: 75%;
+        }
+        .col-md-10 {
+            width: 83.33%;
+        }
+        .col-md-11 {
+            width: 91.66%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+    }
+    }
+    /* Mobile */
+    @media (max-width: 768px) {
+        .col-mn-1 {
+            width: 8.33%;
+        }
+        .col-mn-2 {
+            width: 16.66%;
+        }
+        .col-mn-3 {
+            width: 25%;
+        }
+        .col-mn-4 {
+            width: 33.33%;
+        }
+        .col-md-5 {
+            width: 41.66%;
+        }
+        .col-mn-6 {
+            width: 50%;
+        }
+        .col-mn-7 {
+            width: 58.33%;
+        }
+        .col-mn-8 {
+            width: 66.66%;
+        }
+        .col-mn-9 {
+            width: 75%;
+        }
+        .col-mn-10 {
+            width: 83.33%;
+        }
+        .col-mn-11 {
+            width: 91.66%;
+        }
+        .col-mn-12 {
+            width: 100%;
+        }
+    }
