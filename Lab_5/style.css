@@ -5,6 +5,7 @@ h1{
 @media (min-width: 992px){
 h3{
     float: right;
+    background-color: orange;
 }
 article{
     max-width: 200px;
@@ -20,6 +21,7 @@ article{
 @media (min-width: 768px) and (max-width: 992px){
     h3{
         float: right;
+        background-color: orange;
     }
     article{
         max-width: 200px;
@@ -35,6 +37,7 @@ article{
 @media (max-width: 768px){
     h3{
         float: right;
+        background-color: orange;
     }
     article{
         max-width: 200px;
