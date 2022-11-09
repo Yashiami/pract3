@@ -120,6 +120,12 @@ h3 {
         .col-md-12 {
             width: 100%;
         }
+        #ar3
+        {
+             grid-column-start: 1; 
+             grid-column-end: 2; 
+             width: 85vw; 
+             margin-top: 3vw;
     }
     }
     /* Mobile */
