@@ -31,15 +31,27 @@ ul{
     color: blue;
     font-size: 1.2em;
 }
+#bas{
+    background: coral;
+    border: 1px solid black;
+}
 #ch{
     background: aqua;
     color: darkviolet;
     font-size: 1.2em;
 }
+#childhood{
+    background: aqua;
+    border: 1px solid black;
+}
 #bi{
     background: bisque;
     color: red;
     font-size: 1.2em;
+}
+#beyond{
+    background: bisque;
+    border: 1px solid black;
 }
 #u{
     background: lemonchiffon;
@@ -50,6 +62,14 @@ ul{
     background: brown;
     color: orange;
     font-size: 1.2em;
+}
+#schooltime{
+    background: brown;
+    border: 1px solid black;
+}
+#univ{
+    background: lemonchiffon;
+    border: 1px solid black;
 }
 h1{
     text-align: center;
@@ -70,6 +90,9 @@ h2{
 #upp
 {
     text-transform: uppercase;
+}
+div{
+    display: flex;
 }
 /* Desktop */
 @media (min-width: 992px) {
@@ -119,6 +142,9 @@ h2{
 
     .col-lg-12 {
         width: 100%;
+    }
+    div{
+        justify-content: space-around;
     }
 
     /* Tablet */

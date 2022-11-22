@@ -12,15 +12,24 @@ h2{
     text-align: center;
     font-size: 70%;
 }
+#inpap{
+    text-align: center;
+    font-size: 130%;
+}
 #onl{
     text-align: center;
     font-size: 91%;
 }
-#pic
+#pic, #inpic
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
 /* Desktop */
 @media (min-width: 992px) {
