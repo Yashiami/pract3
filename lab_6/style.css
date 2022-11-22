@@ -31,7 +31,6 @@ h1{
 }
 #contain{
     display: flex;
-    flex-grow: 1;
 }
 /* Desktop */
 @media (min-width: 992px) {
