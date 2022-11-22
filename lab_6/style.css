@@ -82,7 +82,10 @@ h1{
     .col-lg-12 {
         width: 100%;
     }
-
+    #contain{
+        justify-content: space-between;
+    }
+}
     /* Tablet */
     @media (min-width: 768px) and (max-width: 992px) {
         .col-md-1 {
@@ -121,7 +124,6 @@ h1{
         .col-md-12 {
             width: 100%;
         }
-    }
     }
     /* Mobile */
     @media (max-width: 768px) {
