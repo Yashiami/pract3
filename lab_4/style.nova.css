@@ -1,23 +1,4 @@
-div.il li ul li:nth-child(odd) {
-    background:gray;
-    color: white;
-}
-div li.cool{
-    cursor: pointer;
-}
-div li.lg{
-    background:green;
-}
-#back{
-    font-style: italic;
-}
-h1{
-    text-align: center;
-    font-size: 22px;
-}
-h2{
-    text-align: center;
-}
+
 /* Desktop */
 @media (min-width: 992px) {
     .col-lg-1 {

@@ -1,36 +1,4 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 2px solid black;
-}
-th, td {
-    text-align: center;
-    border:2px solid black;
-    padding: 1%;
-    min-width: 80px;
-}
-.tbl:nth-child(even) {
-    background: green;
-}
-h1{
-    text-align: center;
-    font-size: 22px;
-}
-#back{
-    font-style: italic;
-}
-h2{
-    text-align: center;
-}
-th{
-    background: #00FF00;
-    color: red;
-    font-weight: bold;
-}
-.last
-{
-    text-align: right;
-}
+
 /* Desktop */
 @media (min-width: 992px) {
     .col-lg-1 {
