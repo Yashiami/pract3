@@ -29,6 +29,9 @@ h1{
 #t{
     font-size: 120%;
 }
+#contain{
+    display: flex;
+}
 /* Desktop */
 @media (min-width: 992px) {
     .col-lg-1 {
