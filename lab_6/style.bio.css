@@ -46,6 +46,11 @@ ul{
     color: #00FF00;
     font-size: 1.2em;
 }
+#sch{
+    background: brown;
+    color: orange;
+    font-size: 1.2em;
+}
 h1{
     text-align: center;
     font-size: 22px;
