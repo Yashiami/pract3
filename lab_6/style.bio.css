@@ -91,15 +91,20 @@ h2{
 {
     text-transform: uppercase;
 }
+article {
+    margin: 1%;
+}
 div{
     display: flex;
+    justify-content: space-around;
+    width: 150%;
+    flex-wrap: wrap;
 }
 /* Desktop */
 @media (min-width: 992px) {
     .col-lg-1 {
         width: 8.33%;
     }
-
     .col-lg-2 {
         width: 16.66%;
     }
@@ -143,10 +148,7 @@ div{
     .col-lg-12 {
         width: 100%;
     }
-    div{
-        justify-content: space-around;
-    }
-
+}
     /* Tablet */
     @media (min-width: 768px) and (max-width: 992px) {
         .col-md-1 {
@@ -186,7 +188,6 @@ div{
             width: 100%;
         }
     }
-    }
     /* Mobile */
     @media (max-width: 768px) {
         .col-mn-1 {
@@ -224,5 +225,8 @@ div{
         }
         .col-mn-12 {
             width: 100%;
+        }
+        div{
+            justify-content: normal;
         }
     }

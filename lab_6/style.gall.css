@@ -15,6 +15,7 @@ h2{
 #inpap{
     text-align: center;
     font-size: 130%;
+    margin: 5px;
 }
 #onl{
     text-align: center;
@@ -29,7 +30,6 @@ h2{
 #flex{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
 }
 /* Desktop */
 @media (min-width: 992px) {
@@ -81,6 +81,10 @@ h2{
         width: 100%;
     }
 
+    body{
+        width: 205%;
+    }
+}
     /* Tablet */
     @media (min-width: 768px) and (max-width: 992px) {
         .col-md-1 {
@@ -119,10 +123,20 @@ h2{
         .col-md-12 {
             width: 100%;
         }
-    }
+        #flex{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        body{
+            width: 200%;
+            height: 70%;
+        }
+        section{
+            margin: 3px;
+        }
     }
     /* Mobile */
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         .col-mn-1 {
             width: 8.33%;
         }
@@ -158,5 +172,11 @@ h2{
         }
         .col-mn-12 {
             width: 100%;
+        }
+        #flex{
+            flex-direction: column;
+        }
+        section{
+            margin: 3px;
         }
     }

@@ -29,8 +29,9 @@ h1{
 #t{
     font-size: 120%;
 }
-article{
+div{
     display: flex;
+    flex-wrap: wrap;
 }
 /* Desktop */
 @media (min-width: 992px) {
@@ -81,6 +82,9 @@ article{
     .col-lg-12 {
         width: 100%;
     }
+    div{
+        justify-content: space-between;
+    }
 }
     /* Tablet */
     @media (min-width: 768px) and (max-width: 992px) {
@@ -120,7 +124,10 @@ article{
         .col-md-12 {
             width: 100%;
         }
-        #thi{
+        div{
+            height: 30%;
+        }
+        p#thi, p#fo{
             align-self: flex-end;
         }
 
@@ -163,7 +170,7 @@ article{
         .col-mn-12 {
             width: 100%;
         }
-        article{
+        div{
             flex-direction: column;
         }
     }
