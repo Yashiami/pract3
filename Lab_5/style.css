@@ -32,7 +32,7 @@ h3 {
     background-color: lightcoral;
 }
 /* Desktop */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .col-lg-1 {
         width: 8.33%;
     }
@@ -82,7 +82,7 @@ h3 {
     }
 }
     /* Tablet */
-    @media (min-width: 768px) and (max-width: 992px) {
+    @media (min-width: 767px) and (max-width: 992px) {
         .col-md-1 {
             width: 8.33%;
         }
