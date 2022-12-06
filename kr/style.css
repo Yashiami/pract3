@@ -1,0 +1,29 @@
+#block1{
+    background: #00FF00;
+}
+#block2{
+    background: aqua;
+}
+#block3{
+    background: maroon;
+}
+#block4{
+    background: yellow;
+}
+.title{
+    border: 1px solid black;
+    width: 100px;
+    float: right;
+}
+#title1{
+    background-color: brown;
+}
+#title2{
+    background-color: darkviolet;
+}
+#title3{
+    background-color: aquamarine;
+}
+#title4{
+    background-color: gray;
+}
