@@ -15,9 +15,6 @@ th, td {
     padding: 1%;
     min-width: 80px;
 }
-.tbl:nth-child(even) {
-    background: green;
-}
 h1{
     text-align: center;
     font-size: 22px;
@@ -44,32 +41,32 @@ th{
 <p id="back"><a href="index.html"> Назад на головну</a></p>
 <h2>Мої друзі</h2>
 <table>
+<caption>Інформація</caption>
 <thead>
     <tr>
         <th>Прізвище</th>
         <th>Ім'я</th>
         <th>Дата народження</th>
         <th>Адреса проживання</th>
-        <th>Контактний номер</th>
+        <th class="last">Контактний номер</th>
     </tr>
 </thead>
 <tbody>
-    <tr class="tbl">
+    <tr>
         <td>Маланюк</td>
         <td>Владислав</td>
         <td>10.11.2006</td>
         <td>м.Львів</td>
         <td class="last">0977384692</td>
 </tr>
-<tr class="tbl">
+<tr>
     <td>Мельник</td>
     <td>Святослав</td>
-    <td>м.Івано-Франківськ</td>
     <td>05.10.2005</td>
+    <td>м.Івано-Франківськ</td>
     <td class="last">0680123740</td>
-
 </tr>
-<tr class="tbl">
+<tr>
     <td>Бандера</td>
     <td>Степан</td>
     <td>01.01.1907</td>
