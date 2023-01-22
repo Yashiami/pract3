@@ -27,6 +27,10 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+a#onll{
+    display: block;
+    text-align: center;
+}
 #flex{
     display: flex;
     justify-content: space-between;
